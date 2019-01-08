@@ -92,21 +92,33 @@ __Table 4: Avergage residential maxfar and builtfar__
 |------------------|------------------|------------------|
 |1.1085407715997209|1.1666834392287233|0.8391015326831988|
 
-__Table 5: Comparing pctunbuilt for maxfar vs new maxfar__
+__Table 5: Maxfar change counts__
 
-|                    |maxfar > maxfar_new|maxfar == maxfar_new| maxfar < maxfar_new |
-|--------------------| ---------------|----------------|----------------|
-|pctunbuilt_new > 0.5|           27705|           92399|            1076|
-|    pctunbuilt > 0.5|           43285|           92399|             758|
-|--------------------| ---------------|----------------|----------------|
-|pctunbuilt_new = 0.5|            1686|            3655|               3|
-|    pctunbuilt = 0.5|            2821|            3655|              30|
-|--------------------| ---------------|----------------|----------------|
-|pctunbuilt_new < 0.5|          285100|          259160|             381|
-|    pctunbuilt < 0.5|          268385|          259160|             602|
+|increase|decrease|unchanged|
+|--------|--------|---------|
+|    1472|  315182|   356009|
 
+__Table 6: Percentunbuilt change counts__
 
+|increase|decrease|unchanged|
+|--------|--------|---------|
+|    1192|  304494|   365409|
 
+__Table 7: Percentunbuilt change counts break down (based on new Pctpctunbuilt value)__
+
+|         |  >0.5|=0.5|  <0.5|
+|---------|------|----|------|
+| increase|   813|   3|   376|
+|unchanged|102594|3655|259160|
+| decrease| 17708|1686|285100|
+
+__Table 8: Percentunbuilt change counts break down (based on old Pctpctunbuilt value)__
+
+|         |  >0.5|=0.5|  <0.5|
+|---------|------|----|------|
+| increase|   560|  30|   602|
+|unchanged|102594|3655|259160|
+| decrease| 33288|2821|268385|
 
 
 # Explanation:
