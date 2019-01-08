@@ -13,35 +13,67 @@
 2. ``` Pctpctunbuilt = (MaxFar - BuiltFar)/Maxfar```
 
 ## Results:
-__Table 1: top softsite increase after adopting new Far values (by CD)__
+__Table 1: top softsite increase (by CD)__
 
 | cd|softsites_new|softsites|diff|
 |---|-------------|---------|----|
-|503|        37489|    37467|  22|
-|111|         1514|     1496|  18|
-|302|         5126|     5122|   4|
+|302|         1018|     1008|  10|
+|301|         2927|     2917|  10|
+|206|         1670|     1666|   4|
+|308|         1777|     1773|   4|
+|309|         2402|     2399|   3|
+|102|          262|      259|   3|
+|303|         2916|     2913|   3|
+|201|         1568|     1566|   2|
+|202|         1459|     1457|   2|
+|484|            9|        7|   2|
+|316|         3911|     3909|   2|
+|304|         2599|     2597|   2|
+|110|          810|      808|   2|
+|205|         1252|     1250|   2|
 |595|           18|       16|   2|
-|307|        11232|    11230|   2|
-|404|         9101|     9099|   2|
-|305|        17627|    17625|   2|
-|413|        37981|    37979|   2|
-|484|           10|        8|   2|
-|501|        31319|    31317|   2|
-|411|        20874|    20872|   2|
-|409|        18288|    18287|   1|
-|208|         2589|     2588|   1|
+|204|         1299|     1298|   1|
+|306|         1740|     1739|   1|
+|203|         1471|     1470|   1|
+|207|         1223|     1223|   0|
+|101|           45|       45|   0|
 
-__Table 2: top softsite increase after adopting new Far values (by borough)__
+__Table 1: top softsite decrease (by CD)__
 
-|borough|softsites_new|softsites|diff|
-|-------|-------------|---------|----|
-|     SI|        95252|    95226|  26|
-|     MN|        14265|    14246|  19|
-|     QN|       268405|   268392|  13|
-|     BK|       229191|   229183|   8|
-|     BX|        64052|    64049|   3|
+| cd|softsites_new|softsites| diff|
+|---|-------------|---------| ----|
+|412|         4827|     6697|-1870|
+|503|         6591|     8251|-1660|
+|501|         6623|     8234|-1611|
+|502|         5577|     6762|-1185|
+|413|         4771|     5918|-1147|
+|410|         1881|     2919|-1038|
+|318|         2686|     3721|-1035|
+|407|         3080|     3906| -826|
+|405|         2518|     3169| -651|
+|212|         3408|     4003| -595|
+|315|         2686|     3205| -519|
+|409|         1861|     2309| -448|
+|408|         1501|     1925| -424|
+|414|         2463|     2876| -413|
+|210|         2016|     2428| -412|
+|211|         1779|     2180| -401|
+|411|         2136|     2524| -388|
+|108|          687|      972| -285|
+|317|         4578|     4842| -264|
+|106|          347|      536| -189|
 
-__Table 3: complete list of zoning districts with maxfar increase__
+__Table 3: softsite change by borough__
+
+|borough|softsites_new|softsites| diff|
+|-------|-------------|---------| ----|
+|     MN|         5575|     6106| -531|
+|     BX|        20241|    21727|-1486|
+|     BK|        48361|    50568|-2207|
+|     SI|        18810|    23264|-4454|
+|     QN|        33537|    41283|-7746|
+
+__Table 4: complete list of zoning districts with maxfar increase__
 
 |zonedist1|counts|
 |---------|------|
@@ -86,39 +118,25 @@ __Table 3: complete list of zoning districts with maxfar increase__
 |R5D      |1     |
 |M2-1     |1     |
 
-__Table 4: Avergage residential maxfar and builtfar__
+__Table 5: Avergage residential maxfar and builtfar__
 
 |   avg(maxfar_new)|       avg(maxfar)|     avg(builtfar)|
 |------------------|------------------|------------------|
 |1.1085407715997209|1.1666834392287233|0.8391015326831988|
 
-__Table 5: Maxfar change counts__
+__Table 6: Maxfar change counts__
 
 |increase|decrease|unchanged|
 |--------|--------|---------|
 |    1472|  315182|   356009|
 
-__Table 6: Percentunbuilt change counts__
+__Table 7: Percentunbuilt value comparison, old vs new__
 
-|increase|decrease|unchanged|
-|--------|--------|---------|
-|    1192|  304494|   365409|
-
-__Table 7: Percentunbuilt change counts break down (based on new Pctpctunbuilt value)__
-
-|         |  >0.5|=0.5|  <0.5|
-|---------|------|----|------|
-| increase|   813|   3|   376|
-|unchanged|102594|3655|259160|
-| decrease| 17708|1686|285100|
-
-__Table 8: Percentunbuilt change counts break down (based on old Pctpctunbuilt value)__
-
-|         |  >0.5|=0.5|  <0.5|
-|---------|------|----|------|
-| increase|   560|  30|   602|
-|unchanged|102594|3655|259160|
-| decrease| 33288|2821|268385|
+|                    |   >0.5|   =0.5|   <0.5|
+|------------------  |-------|-------|-------|
+|Old Percentunbuilt  | 136442|   6506| 528148|
+|New Percentunbuilt  | 121180|   5344| 544641|
+|New - Old difference| -15262|  -1162|  16493|
 
 
 # Explanation:
